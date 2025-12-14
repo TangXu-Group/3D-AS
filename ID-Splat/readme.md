@@ -163,7 +163,7 @@ data/
 | Model | Description | Download |
 |-------|-------------|----------|
 | 3DGS Initiation | Pre-trained 3D Gaussian Splatting | 🚧 Coming Soon |
-| ID-Splat | Full ID-Splat model | 🚧 Coming Soon |
+| Mask-object IDs | Mask-object Tracking Results | 🚧 Coming Soon |
 
 ---
 
