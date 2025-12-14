@@ -90,6 +90,16 @@ conda activate idsplat
 After creating the conda environment, install the required submodules:
 
 ```bash
+mkdir submodules
+git clone --recursive
+git clone https://github.com/camenduru/simple-knn --recursive
+git clone https://github.com/graphdeco-inria/diff-gaussian-rasterization.git --recursive
+git clone https://github.com/rahul-goel/fused-ssim.git --recursive
+git clone https://github.com/JoannaCCJH/gsplat.git --recursive
+git clone https://github.com/minghanqin/segment-anything-langsplat.git --recursive
+cd ..
+
+
 # Install simple-knn
 pip install submodules/simple-knn
 
@@ -105,7 +115,6 @@ pip install submodules/gsplat
 # Install segment-anything-langsplat
 pip install submodules/segment-anything-langsplat
 ```
-
 
 ---
 
