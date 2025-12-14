@@ -6,7 +6,7 @@
 <div align="center">
 
 
-**[Yijing Wang]<sup>1</sup> · [Xu Tang]<sup>1*</sup> · [Xiangrong Zhang]<sup>1</sup> · [Jingjing Ma]<sup>1</sup>**
+Yijing Wang<sup>1</sup> · Xu Tang<sup>1*</sup> · Xiangrong Zhang<sup>1</sup> · Jingjing Ma<sup>1</sup>
 
 <sup>1</sup>School of Artificial Intelligence, Xidian University, Xi'an, China  
 <sup>*</sup>Corresponding author
