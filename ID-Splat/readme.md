@@ -5,9 +5,6 @@
 
 <div align="center">
 
-[![arXiv](https://img.shields.io/badge/arXiv-2024.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXXX)
-[![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://github.com/TangXu-Group/3D-AS/tree/main/ID-Splat)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **[Yijing Wang]<sup>1</sup> · [Xu Tang]<sup>1*</sup> · [Xiangrong Zhang]<sup>1</sup> · [Jingjing Ma]<sup>1</sup>**
 
@@ -144,8 +141,8 @@ data/
 
 ### Dataset Details
 - **Scenes**: 3 categories (City, Country, Port) × 3 scenes each
-- **Images**: ~70 multi-view aerial images per scene
-- **Resolution**: ~1600×900 pixels (0.3-0.5m pixel resolution)
+- **Images**: 70 multi-view aerial images per scene
+- **Resolution**: ~1600×900 pixels 
 - **Annotations**: Pixel-level segmentation for 6-8 semantic classes
 - **Training**: Images 0, 7, 28 (3-view supervision)
 - **Evaluation**: Images 14, 21, 35, 42, 49, 56, 63 (~2× downsampled)
