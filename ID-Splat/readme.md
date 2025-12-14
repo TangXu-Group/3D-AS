@@ -17,7 +17,7 @@ Yijing Wang<sup>1</sup> · Xu Tang<sup>1*</sup> · Xiangrong Zhang<sup>1</sup> �
 
 ## 📢 News
 
-- **[December 2024]** Paper submitted to AAAI 2026
+- **[December 2024]** Paper submitted to AAAI 2026 Oral
 - **[December 2024]** Code repository initialized
 - 🚧 **Code is currently under active development and will be fully released by the end of 2025**
 
