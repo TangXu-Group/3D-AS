@@ -36,7 +36,7 @@ High-resolution Earth Observation technologies present unprecedented opportuniti
 ## 🏗️ Method Overview
 
 <div align="center">
-<img src="assets/framework.png" width="90%">
+<img src="asset/framework.png" width="90%">
 </div>
 
 ### Mask-object Tracking
