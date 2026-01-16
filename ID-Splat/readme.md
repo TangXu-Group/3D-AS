@@ -120,8 +120,33 @@ pip install submodules/segment-anything-langsplat
 
 ## 📊 Dataset
 
+
+## Dataset and Precomputed Results
+
 Download the **3D-AS dataset** from:
-- 🔗 [AliyunPan Link](https://www.alipan.com/t/pQPsyTyfLU7c2aju21UQ)
+
+* 🔗 **BaiduYunPan**: [https://pan.baidu.com/s/14oUhvawfz_fUbF9ol8XIDA?pwd=81g7](https://pan.baidu.com/s/14oUhvawfz_fUbF9ol8XIDA?pwd=81g7)
+
+Due to randomness and other factors, we provide the **precomputed results** used in our experiments:
+
+* **Reconstructed 3DGS**:
+  🔗 **BaiduYunPan**: [https://pan.baidu.com/s/1E7KX7bp53nNX_FelGw0INA](https://pan.baidu.com/s/1E7KX7bp53nNX_FelGw0INA)
+  🔑 Access Code: **epdb**
+  **Note:** When using this 3DGS, remember to modify
+  `scene_init.py`:
+
+  ```python
+  args.source_path = os.path.join("/root/autodl-tmp/RS_Openseg/data/", scene_name, scene_idx)
+  ```
+
+* **Mask-object Tracking**:
+  🔗 **BaiduYunPan**: [https://pan.baidu.com/s/1SGHiOg20Y9W74-31N9EWZA](https://pan.baidu.com/s/1SGHiOg20Y9W74-31N9EWZA)
+  🔑 Access Code: **whq2**
+
+* **Google Drive**: Coming soon...
+
+
+
 
 ### Dataset Structure
 
@@ -182,7 +207,7 @@ bash extract_sam.sh
 # Generate scene video
 python generation_map4.py
 
-# Extract point tracking results
+# Extract point tracking results (When performing model segmentation without EOPS, the hull mask should be applied to the SAM outputs to constrain the MaskObject region.)
 bash extract_points_tracking.sh
 
 # Extract SAM-object tracking results
