@@ -136,7 +136,7 @@ Due to randomness and other factors, we provide the **precomputed results** used
   `scene_init.py`:
 
   ```python
-  args.source_path = os.path.join("/root/autodl-tmp/RS_Openseg/data/", scene_name, scene_idx)
+  args.source_path = os.path.join("YOU_PATH_TO_MASKOBJECT", scene_name, scene_idx)
   ```
 
 * **Mask-object Tracking**:
@@ -183,14 +183,7 @@ data/
 
 ---
 
-## 🔗 Pretrained Models
 
-| Model | Description | Download |
-|-------|-------------|----------|
-| 3DGS Initiation | Pre-trained 3D Gaussian Splatting | 🚧 Coming Soon |
-| Mask-object IDs | Mask-object Tracking Results | 🚧 Coming Soon |
-
----
 
 ## 💻 Usage
 
