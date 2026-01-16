@@ -19,7 +19,6 @@ Yijing Wang<sup>1</sup> · Xu Tang<sup>1*</sup> · Xiangrong Zhang<sup>1</sup> �
 
 - **[November 2025]** Paper submitted to AAAI 2026 Oral
 - **[December 2025]** Code repository initialized
-- 🚧 **Code is currently under active development and will be fully released by the end of 2025**
 
 ---
 
@@ -289,10 +288,10 @@ This repository is actively under development. Key milestones:
 
 - [x] Paper submission 
 - [x] Repository initialization
-- [ ] Release Mask-object Tracking code
+- [x] Release Mask-object Tracking code
 - [x] Release Object Integration & Propagation code
 - [x] Release pretrained models
-- [ ] Full code release 
+- [x] Full code release 
 
 Stay tuned for updates! ⭐ Star this repo to follow our progress.
 
