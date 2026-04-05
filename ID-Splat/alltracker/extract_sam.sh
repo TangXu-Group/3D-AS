@@ -1,3 +1,6 @@
+# ====== preprocess.py 来自 LangSplat ======
+# https://github.com/minghanqin/LangSplat
+
 dataset_path=YOUR_PATH_TO_DATASET
 
 echo $dataset_path
